@@ -828,3 +828,27 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+#pano {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Reubicar los botones de navegación */
+.viewControlButton {
+  position: absolute !important;
+  bottom: 20px;
+  transform: none !important;
+}
+
+.viewControlButton-1 { left: 40%; bottom: 60px; }  /* Arriba */
+.viewControlButton-2 { left: 40%; }                /* Abajo */
+.viewControlButton-3 { left: 35%; }                /* Izquierda */
+.viewControlButton-4 { left: 45%; }                /* Derecha */
+.viewControlButton-5 { left: 50%; }                /* Zoom in */
+.viewControlButton-6 { left: 55%; }                /* Zoom out */
